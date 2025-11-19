@@ -23,6 +23,10 @@ import challenge7.Guerrier;
 import challenge7.Mage;
 import challenge7.Personnage;
 import challenge8.*;
+import challenge9.Document;
+import challenge9.Image;
+import challenge9.PDF;
+import challenge9.WORD;
 
 import java.text.Normalizer;
 import java.util.ArrayList;
@@ -144,6 +148,7 @@ public class Main {
 
        /// Challenge 8 — Notifications
 
+        /*
         List<Notification> notifications =  new ArrayList<>();
         notifications.add(new EmailNotification());
         notifications.add(new EmailNotification());
@@ -151,6 +156,23 @@ public class Main {
         notifications.add(new SmsNotification());
         notifications.add(new PushNotification());
         new Notify().notifierTous(notifications,"Hello guys");
+
+         */
+
+        ///  Challenge 9 — Documents : Affichage
+
+       /*
+        List<Document> documents = new ArrayList<>();
+
+        documents.add(new PDF());
+        documents.add(new WORD());
+        documents.add(new Image());
+
+        for (Document document:documents){
+            document.afficher();
+        }
+
+        */
 
 
 
