@@ -14,6 +14,10 @@ import challenge4.Compte;
 import challenge4.CompteCourant;
 import challenge4.CompteEpargne;
 import challenge5.*;
+import challenge6.Camion;
+import challenge6.Moto;
+import challenge6.Vehicule;
+import challenge6.Voiture;
 
 import java.text.Normalizer;
 import java.util.ArrayList;
@@ -67,7 +71,7 @@ public class Main {
         }
        */
 
-      ///  Challenge 3 — Animaux et Sons
+        ///  Challenge 3 — Animaux et Sons
         /*
         Animal chat =  new Chat();
         Animal chien =  new Chien();
@@ -92,11 +96,30 @@ public class Main {
         compteCourant.retirer(500);
          */
 
-       /// Challenge 5 — Paiement : Polymorphisme
-
+        /// Challenge 5 — Paiement : Polymorphisme
+        /*
         new TraitementPaiment().traiterPaiement(new PaiementVirement(),100);
         new TraitementPaiment().traiterPaiement(new PaiementCarte(),100);
         new TraitementPaiment().traiterPaiement(new PaiementCash(),100);
+         */
+
+        /// Challenge 6 — Transport : Véhicules
+
+        /*
+        Vehicule voiture = new Voiture("x", 2010);
+        voiture.demarrer();
+        voiture.calculerAutonomie(10, 4);
+
+        Vehicule camion = new Camion("y", 2000);
+        camion.demarrer();
+        camion.calculerAutonomie(17, 6);
+
+        Vehicule Moto = new Moto("m", 2020);
+        Moto.demarrer();
+        Moto.calculerAutonomie(5, 2);
+
+         */
+
 
 
 
