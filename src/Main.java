@@ -146,7 +146,7 @@ public class Main {
         }
          */
 
-       /// Challenge 8 — Notifications
+        /// Challenge 8 — Notifications
 
         /*
         List<Notification> notifications =  new ArrayList<>();
@@ -174,10 +174,7 @@ public class Main {
 
         */
 
-
-
-
-
+        /// Challenge 10 — Boutique : Produits
 
 
     }
