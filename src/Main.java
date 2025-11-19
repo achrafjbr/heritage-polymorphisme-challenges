@@ -22,6 +22,7 @@ import challenge7.Archer;
 import challenge7.Guerrier;
 import challenge7.Mage;
 import challenge7.Personnage;
+import challenge8.*;
 
 import java.text.Normalizer;
 import java.util.ArrayList;
@@ -140,6 +141,19 @@ public class Main {
             personnage.attaquer();
         }
          */
+
+       /// Challenge 8 — Notifications
+
+        List<Notification> notifications =  new ArrayList<>();
+        notifications.add(new EmailNotification());
+        notifications.add(new EmailNotification());
+        notifications.add(new SmsNotification());
+        notifications.add(new SmsNotification());
+        notifications.add(new PushNotification());
+        new Notify().notifierTous(notifications,"Hello guys");
+
+
+
 
 
 
