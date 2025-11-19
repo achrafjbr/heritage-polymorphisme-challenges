@@ -13,6 +13,7 @@ import challenge3.Vache;
 import challenge4.Compte;
 import challenge4.CompteCourant;
 import challenge4.CompteEpargne;
+import challenge5.*;
 
 import java.text.Normalizer;
 import java.util.ArrayList;
@@ -81,12 +82,21 @@ public class Main {
 
         /// Challenge 4 — Banque : Comptes
 
-        Compte compteCourant = new CompteCourant(1111,10000);
+
+        /*
+          Compte compteCourant = new CompteCourant(1111,10000);
         compteCourant.verser(100);
         compteCourant.retirer(200);
         Compte compteEpargne = new CompteEpargne(1111,10000);
         compteEpargne.verser(100);
         compteCourant.retirer(500);
+         */
+
+       /// Challenge 5 — Paiement : Polymorphisme
+
+        new TraitementPaiment().traiterPaiement(new PaiementVirement(),100);
+        new TraitementPaiment().traiterPaiement(new PaiementCarte(),100);
+        new TraitementPaiment().traiterPaiement(new PaiementCash(),100);
 
 
 
