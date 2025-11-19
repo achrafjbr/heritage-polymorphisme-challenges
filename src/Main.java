@@ -6,6 +6,10 @@ import challenge2.Employe;
 import challenge2.EmployeCommission;
 import challenge2.EmployeHoraire;
 import challenge2.Manager;
+import challenge3.Animal;
+import challenge3.Chat;
+import challenge3.Chien;
+import challenge3.Vache;
 
 import java.text.Normalizer;
 import java.util.ArrayList;
@@ -59,6 +63,15 @@ public class Main {
         }
        */
 
+      ///  Challenge 3 — Animaux et Sons
+        Animal chat =  new Chat();
+        Animal chien =  new Chien();
+        Animal vache =  new Vache();
+        List <Animal> animals = new ArrayList<>();
+        animals.add(chat);
+        animals.add(chien);
+        animals.add(vache);
+        for (Animal animal:animals){animal.faireSon();}
 
     }
 }
