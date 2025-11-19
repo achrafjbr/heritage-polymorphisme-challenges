@@ -18,6 +18,10 @@ import challenge6.Camion;
 import challenge6.Moto;
 import challenge6.Vehicule;
 import challenge6.Voiture;
+import challenge7.Archer;
+import challenge7.Guerrier;
+import challenge7.Mage;
+import challenge7.Personnage;
 
 import java.text.Normalizer;
 import java.util.ArrayList;
@@ -118,6 +122,23 @@ public class Main {
         Moto.demarrer();
         Moto.calculerAutonomie(5, 2);
 
+         */
+
+        ///  Challenge 7 — Jeux Vidéo : Personnages
+
+        /*
+        Personnage guerrier = new Guerrier("Guerrier", 10);
+        Personnage mage = new Mage("Mage", 18);
+        Personnage archer = new Archer("Archer", 13);
+
+        List<Personnage> personnages = new ArrayList<>();
+        personnages.add(guerrier);
+        personnages.add(mage);
+        personnages.add(archer);
+
+        for (Personnage personnage : personnages) {
+            personnage.attaquer();
+        }
          */
 
 
