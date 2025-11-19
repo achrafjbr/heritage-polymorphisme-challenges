@@ -10,6 +10,9 @@ import challenge3.Animal;
 import challenge3.Chat;
 import challenge3.Chien;
 import challenge3.Vache;
+import challenge4.Compte;
+import challenge4.CompteCourant;
+import challenge4.CompteEpargne;
 
 import java.text.Normalizer;
 import java.util.ArrayList;
@@ -64,6 +67,7 @@ public class Main {
        */
 
       ///  Challenge 3 — Animaux et Sons
+        /*
         Animal chat =  new Chat();
         Animal chien =  new Chien();
         Animal vache =  new Vache();
@@ -72,6 +76,19 @@ public class Main {
         animals.add(chien);
         animals.add(vache);
         for (Animal animal:animals){animal.faireSon();}
+         */
+
+
+        /// Challenge 4 — Banque : Comptes
+
+        Compte compteCourant = new CompteCourant(1111,10000);
+        compteCourant.verser(100);
+        compteCourant.retirer(200);
+        Compte compteEpargne = new CompteEpargne(1111,10000);
+        compteEpargne.verser(100);
+        compteCourant.retirer(500);
+
+
 
     }
 }
